@@ -7,3 +7,25 @@
   padding-left: 2rem;
   color: #91ad41;
 }
+
+.breadcrumb_background {
+  background-image: url(//bizweb.dktcdn.net/100/350/980/themes/714097/assets/bg_breadcrumb.png?1553847975699);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  float: left;
+  padding: 60px 0;
+}
+.title_full {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  font-family: "Quicksand",sans-serif;
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+
+.form-inline {
+  display: inline !important;
+}
