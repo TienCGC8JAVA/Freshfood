@@ -1,21 +1,21 @@
-<div id="logreg-forms">
-  <form class="form-signin">
-    <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Đăng nhập</h1>
-    <div class="social-login">
-      <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Đăng nhập bằng Facebook</span> </button>
-      <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Đăng nhập bằng Google+</span> </button>
-    </div>
-    <p style="text-align:center"> hoặc </p>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Địa chỉ email" required="" autofocus="">
-    <input type="password" id="inputPassword" class="form-control" placeholder="Mật khẩu" required="">
+  <div id="logreg-forms">
+    <form class="form-signin">
+      <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Đăng nhập</h1>
+      <div class="social-login">
+        <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Đăng nhập bằng Facebook</span> </button>
+        <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Đăng nhập bằng Google+</span> </button>
+      </div>
+      <p style="text-align:center"> hoặc </p>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Địa chỉ email" required="" autofocus="">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Mật khẩu" required="">
 
-    <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Đăng nhập</button>
-    <a href="#" id="forgot_pswd">Quên mật khẩu?</a>
-    <hr>
-    <!-- <p>Don't have an account!</p>  -->
-    <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Tạo một tài khoản mới</button>
-  </form>
-  <br>
+      <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Đăng nhập</button>
+      <a href="#" id="forgot_pswd">Quên mật khẩu?</a>
+      <hr>
+      <!-- <p>Don't have an account!</p>  -->
+      <button class="btn btn-primary btn-block" type="button" id="btn-signup" (click)="onSelect()"><i class="fas fa-user-plus"></i> Tạo một tài khoản mới</button>
+    </form>
+    <br>
 
-</div>
-<script src="login-form.js"></script>
+  </div>
+  <script src="login-form.js"></script>

@@ -8,6 +8,11 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import {RouterModule} from '@angular/router';
+import { RegisterComponent } from './register/register.component';
+import { ContentComponent } from './header/content/content.component';
+import { SearchComponent } from './header/search/search.component';
+import { CustomerComponent } from './register/customer/customer.component';
+import { SupplierComponent } from './register/supplier/supplier.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import {RouterModule} from '@angular/router';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent,
+    ContentComponent,
+    SearchComponent,
+    CustomerComponent,
+    SupplierComponent
   ],
   imports: [
     BrowserModule,
