@@ -1,21 +1,29 @@
-<div class="container register">
+<div class="container">
   <div class="row">
-    <div class="col-md-3 register-left">
-      <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
-      <h3>Welcome</h3>
-      <p>You are 30 seconds away from earning your own money!</p>
-      <input type="submit" name="" (click)="onSelect()" value="Đăng nhập"/><br/>
+    <div class="col-md-1">
     </div>
-    <div class="col-md-9 register-right">
-      <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" routerLink="customer" routerLinkActive="active" role="tab" aria-controls="home" aria-selected="true">Khách hàng</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" routerLink="supplier" routerLinkActive="active" role="tab" aria-controls="profile" aria-selected="false">Nhà cung cấp</a>
-        </li>
-      </ul>
-      <router-outlet></router-outlet>
+    <div class="col-md-10 register">
+      <div class="row">
+        <div class="col-md-3 register-left">
+          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+          <h3>sea organic</h3>
+          <p>Chất lượng hàng đầu, bảo vệ sức khỏe người tiêu dùng!</p>
+          <input type="submit" name="" (click)="onSelect()" value="Đăng nhập"/><br/>
+        </div>
+        <div class="col-md-9 register-right">
+          <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" routerLink="customer" routerLinkActive="active" role="tab" aria-controls="home" aria-selected="true">Khách hàng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" routerLink="supplier" routerLinkActive="active" role="tab" aria-controls="profile" aria-selected="false">Nhà cung cấp</a>
+            </li>
+          </ul>
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1">
     </div>
   </div>
 </div>

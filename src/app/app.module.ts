@@ -13,6 +13,7 @@ import { ContentComponent } from './header/content/content.component';
 import { SearchComponent } from './header/search/search.component';
 import { CustomerComponent } from './register/customer/customer.component';
 import { SupplierComponent } from './register/supplier/supplier.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SupplierComponent } from './register/supplier/supplier.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
